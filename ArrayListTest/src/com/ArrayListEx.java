@@ -17,7 +17,7 @@ public class ArrayListEx {
 		
 		for(int i=0;i<a.size();i++) {
 			String name = a.get(i);
-			System.out.println(name+" ");
+			System.out.print(name+" ");
 		}
 		int longesrIndex=0;
 		for(int i=1;i<a.size();i++) {
